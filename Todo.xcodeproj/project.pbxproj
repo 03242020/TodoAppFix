@@ -19,7 +19,6 @@
 		BE5810AF2A5FAF130022B2A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5810AE2A5FAF130022B2A6 /* SceneDelegate.swift */; };
 		BE5810B42A5FAF130022B2A6 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5810B22A5FAF130022B2A6 /* SplashViewController.storyboard */; };
 		BE5810B62A5FAF150022B2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5810B52A5FAF150022B2A6 /* Assets.xcassets */; };
-		BE5810B92A5FAF150022B2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5810B72A5FAF150022B2A6 /* LaunchScreen.storyboard */; };
 		BE5810C12A5FB05D0022B2A6 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5810C02A5FB05D0022B2A6 /* TodoListViewController.swift */; };
 		BE5810C32A5FB06E0022B2A6 /* TodoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5810C22A5FB06E0022B2A6 /* TodoAddViewController.swift */; };
 		BE5810C52A5FB0800022B2A6 /* TodoEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5810C42A5FB0800022B2A6 /* TodoEditViewController.swift */; };
@@ -44,7 +43,6 @@
 		BE5810AE2A5FAF130022B2A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE5810B32A5FAF130022B2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SplashViewController.storyboard; sourceTree = "<group>"; };
 		BE5810B52A5FAF150022B2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE5810B82A5FAF150022B2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE5810BA2A5FAF150022B2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE5810C02A5FB05D0022B2A6 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		BE5810C22A5FB06E0022B2A6 /* TodoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddViewController.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				BE5810C42A5FB0800022B2A6 /* TodoEditViewController.swift */,
 				BE66F52B2AFBF0060077FF34 /* TodoEditViewController.storyboard */,
 				BE5810B52A5FAF150022B2A6 /* Assets.xcassets */,
-				BE5810B72A5FAF150022B2A6 /* LaunchScreen.storyboard */,
 				BE5810BA2A5FAF150022B2A6 /* Info.plist */,
 				BE5810CA2A6671AC0022B2A6 /* GoogleService-Info.plist */,
 			);
@@ -208,7 +205,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5810B92A5FAF150022B2A6 /* LaunchScreen.storyboard in Resources */,
 				BE66F52C2AFBF0060077FF34 /* TodoEditViewController.storyboard in Resources */,
 				BE66F5282AF9EE4E0077FF34 /* TodoListViewController.storyboard in Resources */,
 				BE5810CB2A6671AD0022B2A6 /* GoogleService-Info.plist in Resources */,
@@ -246,14 +242,6 @@
 				BE5810B32A5FAF130022B2A6 /* Base */,
 			);
 			name = SplashViewController.storyboard;
-			sourceTree = "<group>";
-		};
-		BE5810B72A5FAF150022B2A6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE5810B82A5FAF150022B2A6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
